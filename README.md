@@ -68,5 +68,5 @@ The accuracy across the five folds of the RNN-LSTM model varies from 60 percent 
 First Cut Approach
 I have performed  EDA on the dataset based on those conclusions,I will prefer to start with Random Forest and Kernel  SVM because Individually features are not contributing enough ,and  bunch of features are co-related to each other significantly so decision tree as a base learner in Random forest,  it will leverage the essence of feature interaction and also look after the variance of the feature,because value of different features ranges from (10^-1 to 10^6).  As it is a low dimensional data, so  SVM (kernel)  implicitly maps their inputs to  higher dimensional feature space and it can perform better  in high dimension as combination of features seems significant here ,that is my intuition and that's how I want to proceed.
 
- EDA on Confused EED dataset : https://colab.research.google.com/drive/1hx_cErpQwJuJlnzu8i_Tl5jiW6oImhx2?usp=sharing
+
  
